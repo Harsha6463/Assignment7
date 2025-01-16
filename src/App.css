@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color:gray;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+
+
+}
+form {
+  background-color: rgb(31, 29, 29);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+  display: inline-block;
+
+}
+input{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+form label {
+  display: inline-block;
+  width: 150px;
+  margin: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+p{
+  text-align: left;
+}
+
+.navsection ul{
+  margin-top: 0px;
+  display: flex;
+  background-color: rgb(207, 211, 124) ;
+  justify-content:space-evenly;
+  padding: 10px;
+
+
+}
+li {
+  display: inline-flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.5rem;
+  
+
+}
+button:hover{
+  background-color: #007bff;
+}
+
+
+
+.addinput {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #b9daea;
+  border-radius: 5px;
+  display: inline-block;
+}
+input {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #b9daea;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.delete {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 5px;
+}
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+td {
+  text-align: left;
+  padding-left: 15px;
+}
+
